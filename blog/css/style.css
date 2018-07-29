@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Itim');
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url('font-awesome.css');
+/* ==== overwrite bootstrap standard ==== */
+@import url('overwrite.css');
+@import url('animate.css');
+
+
+
+@font-face {
+  font-family: 'eurofurence';
+  src: url('../fonts/eurofurence/eurof35.ttf?v=4.0.3') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'eurofurence';
+  src: url('../fonts/eurofurence/eurof55.ttf?v=4.0.3') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'eurofurence';
+  src: url('../fonts/eurofurence/eurof75.ttf?v=4.0.3') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+
+body {font-family:'Open Sans', Arial, sans-serif; font-size:14px; font-weight:300; line-height:1.6em; color:#fff; background-color:#fff; overflow-x:hidden; }
+header{position: fixed; margin-top: 0px; z-index: 100000; width: 100%;height: 130px;border: 1px solid #000;background-color: #292929;}
+
+
+nav {margin-top: 0px; padding: 0px; text-align: center; font-family: Raleway; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0); }
+#nav-3 {background: #292929;height: 129px; }
+#nav-3 .logo{font-family: 'eurofurence'; font-weight: normal; font-size: 40px; color: #ffffff; margin-top: 0px; margin-bottom: 0px;position: absolute;left: 5%;margin-top: 50px;}
+#nav-3 .logo:hover{text-decoration: none;}
+
+#nav-3 .logo b{color: #58c93a;}
+
+.link-3 {transition: 0.4s; color: #ffffff; font-size: 16px; text-decoration: none; padding: 0 10px; margin: 0 10px; position: relative; left: 16%; top: 43%; font-family: 'Lato',sans-serif; font-weight: bold; color: #ffffff; }
+.link-3:hover {background-color: transparent; color: #58c93a; padding: 50px 10px; border-bottom: 4px solid #58c93a; text-decoration: none; }
+#noticias{padding-top: 200px;margin-bottom: 80px;}
+#noticias .cuadro_imagen{width: 87%;min-height: 307px;margin-bottom: 80px;}
+#noticias .cuadro_informacion h1{font-family: 'Lato',sans-serif; font-weight: bold; font-size: 28px; margin-top: 0px; margin-bottom: 0px; color: #4f4e4e; text-transform: uppercase; width: 80% }
+#noticias .cuadro_informacion .texto{font-family: 'Lato',sans-serif; font-size: 16px; color: #606060; margin-top: 40px; font-weight: normal; width: 80; }
+#noticias .cuadro_informacion button.btn{width: 35%; height: 40px; background-color: transparent; border-radius: 20px; border: 1px solid rgba(96, 96, 96, 0.53); color: #c2c1c1; margin-top: 35px; font-family: 'Lato',sans-serif; font-weight: bold; font-size: 16px;}
+#noticias .cuadro_informacion button.btn:hover {background: #fff !important; color: #58c93a !important; border: 1px solid #58c93a !important; }
+
+
+
+#noticias .ver_mas{position:relative;text-align: center;}
+#noticias .ver_mas button.btn{width: 15%; height: 40px; background-color: transparent; border-radius: 20px; border: 1px solid rgba(96, 96, 96, 0.53); color: #c2c1c1; margin-top: 35px; font-family: 'Lato',sans-serif; font-weight: bold; font-size: 16px; }
+#noticias .ver_mas button.btn:hover {background: #fff !important; color: #000000 !important; border: 1px solid #000000 !important; }
+
+
+#detalle{padding-top: 200px;margin-bottom: 80px;}
+#detalle .cuadro{ min-height: 500px; }
+#detalle .informacion h1{font-family: 'Lato',sans-serif; font-size: 25px; font-weight: bold; color: #000000; }
+#detalle .informacion h2{font-family: 'Lato',sans-serif; font-size: 15px; font-weight: normal; color: #ababab; }
+#detalle .informacion .texto{margin-top: 40px;}
+#detalle .informacion .texto p{font-family: 'Lato',sans-serif; font-size: 15px; color: #000; font-weight: normal; }
+#detalle .informacion .cuadro_imagen{min-height: 300px;margin-bottom: 30px;}
+#detalle .recientes h1{font-family: 'eurofurence'; font-size: 25px; font-weight: normal; color: #58c93a; text-align: right; }
+#detalle .recientes .titulos{margin-top: 0px; width: 80%; position: relative; left:20%; }
+#detalle .recientes .titulos h1{font-family: 'eurofurence'; font-size: 25px; font-weight: normal; color: #000; text-align: left; }
+#detalle .recientes .titulos h2{font-family: 'eurofurence'; font-size: 15px; font-weight: normal; color: #ababab; text-align: left; }
+#detalle .recientes .titulos button.btn{border-radius: 20px; width: 30%; box-shadow: inset 0 0px 0px rgba(0,0,0,0); margin-bottom: 20px; color: #000; background-color: #fff; border: 1px solid #ababab; }
+
+#detalle .recientes .titulos button.btn:hover{background: #fff !important; color: #58c93a !important; border: 1px solid #58c93a !important; }
+
+#detalle .recientes .cuadro{min-height: 250px; width: 80%; position: relative; left: 20%; }
+
+footer{background-color: #f8f8f8; height: 314px; }
+footer .footer{position: relative;text-align: center;}
+footer .footer h1{font-family: 'eurofurence'; font-size: 40px; font-weight: normal; margin-top: 70px; margin-bottom: 0px; text-align: center; color: #292929; }
+footer .footer h2{font-family: 'Lato'.sans-serif; font-size: 13px; font-weight: normal; margin-top: 40px; margin-bottom: 0px; text-align: center; color: #ababab; }
+footer .footer b{color: #81d36f;}
+footer .footer .contenedor-redes-sociales {background: #f8f8f8; margin: 20px 0; padding: 20px; text-align: center; }
+footer .footer .contenedor-redes-sociales a {cursor: pointer; display: inline-flex; align-items: center; padding: 0; color: #fff; border-radius: 2px; background: #fff; margin: 5px; }
+footer .footer .contenedor-redes-sociales a:hover{text-decoration: none;}
+footer .footer .contenedor-redes-sociales a:after, footer .footer .contenedor-redes-sociales a:before {display: none; }
+footer .footer .contenedor-redes-sociales a span.cuadrado {display: block; background: #fff; line-height: 30px; height: 30px; width: 30px; }
+footer .footer .contenedor-redes-sociales a span.cuadrado i {width: 100%; text-align: center; font-size: 16px; line-height: 30px; }
+footer .footer .contenedor-redes-sociales a span.titulo {margin: 0 20px; font-size: 16px; transition: all 200ms linear; font-family: 'Lato',sans-serif; font-weight: normal; }
+footer .footer .contenedor-redes-sociales a:hover span.titulo {color: #fff; }
+
+/*---------------Colores de los botones---------------*/
+
+footer .footer .contenedor-redes-sociales .facebook:hover, footer .footer .contenedor-redes-sociales .twitter:hover, footer .footer .contenedor-redes-sociales .gplus:hover {-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.8); box-shadow: 0 0 5px rgba(0, 0, 0, 0.8); }
+footer .footer .contenedor-redes-sociales .facebook {border: 1px solid #3b5998; -webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+footer .footer .contenedor-redes-sociales .facebook:hover, footer .footer .contenedor-redes-sociales .facebook span.cuadrado {background: #3b5998; } footer .footer .contenedor-redes-sociales .facebook span.titulo {color: #3b5998; }
+footer .footer .contenedor-redes-sociales .twitter {border: 1px solid #55ACEE; -webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+footer .footer .contenedor-redes-sociales .twitter:hover, footer .footer .contenedor-redes-sociales .twitter span.cuadrado {background: #55ACEE; }
+footer .footer .contenedor-redes-sociales .twitter span.titulo {color: #55ACEE; }
+footer .footer .contenedor-redes-sociales .gplus {border: 2px solid #d64136; -webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+footer .footer .contenedor-redes-sociales .gplus:hover, footer .footer .contenedor-redes-sociales .gplus span.cuadrado {background: #d64136; }
+footer .footer .contenedor-redes-sociales .gplus span.titulo {color: #d64136; }
+
+
+
+
+/*MEDIAS*/
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+#noticias .cuadro_informacion button.btn{width: 40%}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) { 
+#noticias .cuadro_imagen{width: 100%;margin-bottom: 20px;}
+#noticias .cuadro_informacion button.btn{margin-bottom: 50px;}
+
+}
+@media (max-width: 767px){
+#noticias .cuadro_imagen{width: 100%;margin-bottom: 20px;}
+#noticias .cuadro_informacion button.btn{width: 100%;margin-bottom: 50px;}
+#noticias .ver_mas button.btn{width: 50%;}
+header{height: 50px;}
+
+header a{color: #fff; }
+header a:hover{color: #fff;text-decoration: none;}
+
+
+header h1{position: absolute; right: 2%; font-family: 'eurofurence'; font-weight: normal; font-size: 25px; }
+header b{color: #81d36f;}
+
+#menu, .sub-menu {display: none; list-style: none; /* border: 1px solid #000; */ background-color: #292929; }
+
+#menu li a{color: #fff;text-decoration: none;font-family: 'Lato',sans-serif;font-size: 15px;font-weight: normal;}
+
+/*Change toggle size by adjusting width & height*/
+.tb-menu-toggle {border: 0; position: relative; background: transparent; cursor: pointer; margin-top: 10px; }
+/*Change toggle color here*/
+.tb-menu-toggle i {position: absolute; top: 0; left: 0; width: 100%; height: 20%; -webkit-transition:all .2s; -moz-transition:all .2s; -o-transition:all .2s; transition:all .2s; }
+.tb-menu-toggle i:nth-child(2) {top: 40%; }
+.tb-menu-toggle i:nth-child(3) {top: 80%; }
+/* Style the active toggle here */
+.tb-menu-toggle.tb-active-toggle i {  }
+
+/*Animation of the toggle*/
+.tb-menu-toggle.tb-animate-toggle i:first-child,
+.tb-menu-toggle.tb-animate-toggle i:nth-child(2){top: 40%; -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg); transform:rotate(45deg); }
+.tb-menu-toggle.tb-animate-toggle i:nth-child(3){top: 40%; -webkit-transform:rotate(-45deg); -moz-transform:rotate(-45deg); -ms-transform:rotate(-45deg); -o-transform:rotate(-45deg); transform:rotate(-45deg); }
+
+}
